@@ -3,14 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
     <!-- DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1161b2d89a.js" crossorigin="anonymous"></script>
+    <title>Rinterio</title>
+    <style>
+        .manrope-font {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    </style>
 </head>
-<body>
-    
+<body class="manrope-font" data-theme="light">
+    <header>
+      <!-- Navbar -->
+        <nav class="">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">   
+                  <div class="bg-[#ABEF5F] h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center p-0">
+                    <i class="fa fa-solid fa-arrow-right"></i>
+                  </div>
+                  <a class="btn btn-ghost text-3xl m-0 font-extrabold p-1">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                  <!-- Nav-icons -->
+                  <svg class="w-6 h-6 mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                  <svg class="w-6 h-6 mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                  <!-- Nav-Button -->
+                  <a class="bg-[#ABEF5F] rounded-full px-5 btn">Book Consult <i class="fa fa-solid fa-arrow-right bg-black text-white h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></a>
+                </div>
+                <!-- dropdown Section -->
+                <div class="dropdown lg:hidden absolute top-2 right-2">
+                  <div tabindex="0" role="button" class="btn btn-ghost">
+                      <i class="fa fa-solid fa-bars text-2xl"></i>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- Banner-Section -->
+        <section class="hero bg-white min-h-screen">
+          <div class="hero-content text-center">
+            <div class="lg:flex lg:flex-col items-center w-50">
+              <img class="lg:w-[50%] lg:mb-6 mb-3" src="assets/banner.png" alt="illustration of a house">
+              <h1 class="lg:text-6xl text-4xl font-extrabold">A barn house of this design has a striking appearance</h1>
+              <p class="py-6">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+              </p>
+              <button class="btn text-xl lg:flex font-bold bg-lime-200 lg:px-6 px-24 rounded-full">View Details <i class="fa fa-solid fa-arrow-right bg-[#ABEF5F] h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></button>
+            </div>
+          </div>
+        </section>
+    </header>
+    <main>
+      <!-- About Us -->
+      <section class="hero bg-base-200 min-h-screen">
+
+      </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
