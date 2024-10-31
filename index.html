@@ -45,10 +45,10 @@
                 </div>
                 <div class="navbar-end hidden lg:flex">
                   <!-- Nav-icons -->
-                  <svg class="w-6 h-6 mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-                  <svg class="w-6 h-6 mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                  <svg class="w-6 h-6 mr-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                  <svg class="w-6 h-6 mr-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
                   <!-- Nav-Button -->
-                  <a class="bg-[#ABEF5F] rounded-full px-5 btn">Book Consult <i class="fa fa-solid fa-arrow-right bg-black text-white h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></a>
+                  <a class="text-xl font-extrabold bg-[#ABEF5F] rounded-full px-5 btn">Book Consult <i class="fa fa-solid fa-arrow-right bg-black text-white h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></a>
                 </div>
                 <!-- dropdown Section -->
                 <div class="dropdown lg:hidden absolute top-2 right-2">
@@ -67,7 +67,7 @@
               <p class="py-6">
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
               </p>
-              <button class="btn text-xl lg:flex font-bold bg-lime-200 lg:px-6 px-24 rounded-full">View Details <i class="fa fa-solid fa-arrow-right bg-[#ABEF5F] h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></button>
+              <button class="btn text-xl lg:flex font-bold bg-lime-200 lg:px-6 px-24 rounded-full border-none">View Details <i class="fa fa-solid fa-arrow-right bg-[#ABEF5F] h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></button>
             </div>
           </div>
         </section>
@@ -78,8 +78,8 @@
         <div class="hero bg-base-200 min-h-screen">
           <div class="hero-content flex-col-reverse lg:flex-row-reverse lg:gap-9 items-center">
             <img
-              src="assets/Rectangle.png"
-              class="rounded-4 shadow-2xl">
+              src="assets/Rectangle.png" alt="Photo of a house"
+              class="rounded-3xl shadow-2xl border-none">
             <div>
               <div class="lg:text-left text-center">
                 <img src="assets/Vector.png" alt="Vector image of sring" class="invisible lg:visible -mt-10 -ml-14 mb-3">
@@ -213,12 +213,30 @@
               <input type="number" placeholder="Phone Number*" class="p-5 rounded-full focus:ring-2 focus:ring-lime-500 focus:outline-none border border-gray-300">
               <input type="text" placeholder="Email Address*" class="p-5 rounded-full focus:ring-2 focus:ring-lime-300 focus:outline-none border border-gray-300">
             </div>
-            <textarea placeholder="Write Your Message Here" rows="5" class="w-[100%] rounded-3xl p-5 focus:ring-2 focus:outline-none focus:ring-red-100 border border-gray-300"></textarea>
-            <button class="btn w-[100%] text-xl font-extrabold rounded-full bg-[#ABEF5F]">Send Mail <i class="fa fa-solid fa-arrow-right bg-black text-white h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></button>
+            <textarea placeholder="Write Your Message Here" rows="5" class="w-[100%] rounded-3xl p-5 focus:ring-2 focus:outline-none focus:ring-red-100 border border-gray-300">
+            </textarea>
+            <button class="btn w-[100%] text-xl font-extrabold rounded-full bg-[#ABEF5F] border-none">Send Mail <i class="fa fa-solid fa-arrow-right bg-black text-white h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i></button>
           </form>
+        </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#1C1C1C] place-items-center w-full p-20">
+      <div class="footer-title flex items-center">
+          <div class="">
+          <i class="fa fa-solid fa-arrow-right bg-[#ABEF5F] h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center p-0"></i>
+          </div>
+          <a class="text-3xl text-white font-extrabold p-1">Rinterio</a>
+        </div>
+        <p class="text-[#737373] text-center">Transform your home with our unique designs and expert insights. Explore the possibilities and elevate your living space today!</p>
+      </div>
+      <ul class="lg:flex lg:space-x-28 text-white text-base lg:py-12 py-4 text-center">
+        <li class="mb-3">Home</li>
+        <li class="mb-3">Services</li>
+        <li class="mb-3">Portfolio</li>
+        <li class="mb-3">Blogs</li>
+        <li class="mb-3">Contact Us</li>
+      </ul>
+      <a class="bg-[#ABEF5F] rounded-full px-5 btn border-none text-xl font-extrabold">Book Consult <i class="fa fa-solid fa-arrow-right bg-black text-white h-8 w-8 rounded-[100%] origin-center -rotate-45 flex items-center justify-center"></i>
+      </a>
     </footer>
 </body>
 </html>
